@@ -7,8 +7,9 @@
 ## 说明：
 #### 该程序由官方提供的Ardunio移植到STM32F103
 ## 注意事项：
-#### 该程序使用中断，因此你的LTC4150上需要将SJ1闭合。如果你需要输出电压设置为3.3V，请将SJ2和SJ3闭合
-
+#### 该程序使用中断，因此你的LTC4150上需要将SJ1闭合。如果你需要输出电压设置为3.3V，请将SJ2和SJ3闭合，5V则打开即可
+####
+####
 ## Reference
 #### https://github.com/sparkfun/LTC4150_Coulomb_Counter_BOB
 #### https://learn.sparkfun.com/tutorials/ltc4150-coulomb-counter-hookup-guide#solderjumpers
