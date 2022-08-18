@@ -7,7 +7,7 @@
 #include "usart.h"
 #include "oled.h"
 
-//修改以下定义 ,便于修改引脚
+//Modify the following definitions to facilitate the modification of the pins
 #define INT_Pin GPIO_Pin_7
 #define POL_Pin GPIO_Pin_6
 #define SHDN_Pin GPIO_Pin_5
