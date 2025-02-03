@@ -1,15 +1,22 @@
-# LTC4150模块
+# LTC4150 Module
+English | [简体中文](README_zh.md)
+
 ---
-## 环境与相关引脚：
-##### 该程序基于*STM32F103*，其中INT引脚为PB7，POL引脚为PB6，SHDN引脚为PB5
-## 功能：
-##### 通过输入 电池总毫安时mAh 和 目前电量百分比%，来计算 电池剩余电量 以及 电流大小（可选），本人还提供了IIC通信的OLED屏幕显示数据
-## 说明：
-##### 该程序由官方提供的Ardunio移植到STM32F103
-## 注意事项：
-##### 该程序使用中断，因此你的LTC4150上需要将 *SJ1闭合*。如果你需要输出电压设置为3.3V，请将 *SJ2和SJ3闭合*，5V则打开即可
-####
-####
-## Reference
-##### https://github.com/sparkfun/LTC4150_Coulomb_Counter_BOB
-##### https://learn.sparkfun.com/tutorials/ltc4150-coulomb-counter-hookup-guide#solderjumpers
+## Environment and Relevant Pins：
+This program is based on *STM32F103*, with the **INT** pin connected to PB7, the **POL** pin to PB6, and the **SHDN** pin to PB5.
+
+## Functionality:
+By inputting the total battery capacity in mAh and the current battery percentage, the program calculates the remaining battery capacity and, optionally, the current. It also provides an I2C-connected OLED screen to display the data.
+
+## Notes:
+The program uses interrupts, so you need to **close SJ1** on the LTC4150. 
+
+If you want the output voltage to be set to 3.3V, **close SJ2 and SJ3**. For 5V output, leave them **open**.
+
+## Description:
+This program is a port of the official Arduino code to STM32F103.
+
+## Reference:
+https://github.com/sparkfun/LTC4150_Coulomb_Counter_BOB
+
+https://learn.sparkfun.com/tutorials/ltc4150-coulomb-counter-hookup-guide#solderjumpers
